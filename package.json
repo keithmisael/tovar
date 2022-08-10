@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "json": "json-server --watch api/db.json",
+<<<<<<< HEAD
     "dev": "parcel src/index.html --open"
+=======
+    "dev" : "parcel src/index.html --open",
+    "build": "parcel src/index.html"
+>>>>>>> eb1d4092aa7c15799c4f85bae18af289de0d1aa1
   },
   "keywords": [],
   "author": "",
