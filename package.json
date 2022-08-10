@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "json": "json-server --watch api/db.json",
-    "dev" : "parcel src/index.html --open",
-    "build": "parcel src/index.html"
+    "dev": "parcel src/index.html --open",
+    "build": "parcel src/index.html --public-url ./",
+    "start" : "node src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "parcel-plugin-clean-dist": "^0.0.6"
   }
 }
