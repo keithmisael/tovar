@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "json": "json-server --watch api/db.json"
+    "json": "json-server --watch api/db.json",
+    "dev" : "parcel src/index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
 }
