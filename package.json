@@ -5,24 +5,19 @@
   "main": "index.js",
   "scripts": {
     "json": "json-server --watch api/db.json",
-<<<<<<< HEAD
     "dev": "parcel src/index.html --open",
     "build": "parcel src/index.html --public-url ./",
-    "start" : "node src/server.js"
-=======
-<<<<<<< HEAD
-    "dev": "parcel src/index.html --open"
-=======
-    "dev" : "parcel src/index.html --open",
-    "build": "parcel src/index.html"
->>>>>>> eb1d4092aa7c15799c4f85bae18af289de0d1aa1
->>>>>>> 868a0d506272e7b9cd04522a79c8f0d58c3675c4
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",
     "parcel-plugin-clean-dist": "^0.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
   }
 }
